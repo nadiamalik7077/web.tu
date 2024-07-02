@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thal University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- NAVBAR -->
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2025</h1>
+
+    </section>
+
+    <!-- BLOG PAGE CONTENT -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs for 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore ex aliquam itaque minus,
+                    quibusdam harum necessitatibus totam modi! Optio quibusdam necessitatibus iste velit architecto
+                    dolore fugit magnam! Eum, id!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo rem a, perferendis incidunt quia
+                    perspiciatis quidem esse dolorum quae eius tempora consequuntur, nostrum iure earum nesciunt,
+                    provident sequi sit officiis.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore, consequuntur molestias
+                    expedita commodi perferendis beatae voluptas veniam fugiat doloremque rerum ducimus dolorum, quod
+                    deleniti temporibus dignissimos harum iusto animi!
+                    Ipsa corrupti nulla similique, deleniti mollitia fugiat sed, beatae non quasi officiis aut et. Minus
+                    debitis pariatur nam voluptates accusamus voluptas eos vitae saepe fugiat quas, earum inventore
+                    asperiores! Nisi?
+                    Explicabo doloremque odit veritatis laboriosam eos? Deleniti, expedita. Error mollitia dicta
+                    recusandae ducimus iusto nemo praesentium, doloremque excepturi velit quo laudantium tempore
+                    pariatur soluta. Vel non facere illo et dolorem.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maxime numquam, alias rerum obcaecati
+                    provident velit animi nemo a autem cumque accusamus nisi mollitia amet fugit doloribus possimus?
+                    Labore, illo?
+                    Recusandae nisi officia consectetur. Eum voluptate minus vel omnis earum! Unde recusandae minima
+                    pariatur dolorem tempore, fugiat, voluptatum hic ipsum at quam culpa optio repellat asperiores
+                    voluptates nulla animi vero?
+                    Similique quam dolores esse dolore repellat sunt consectetur ipsa architecto possimus veniam
+                    molestias porro ex a obcaecati nisi necessitatibus, delectus laboriosam. Cum sequi nam, reiciendis
+                    autem veniam minus reprehenderit. Itaque.</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="post" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button class="hero-btn " id="red-btn"  type="submit">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Catagaries</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journlism</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur repellat inventore odio porro <br> illum
+            asperiores ex, impedit consequatur officiis fugit vero exercitationem, nulla <br>temporibus aperiam deserunt
+            velit nihil delectus error.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart" id="heart"></i> by Nadia Malik</p>
+
+
+    </section>
+
+    <!-- JAVASCRIPT FOR TOGGLE MANU -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+
+        }
+    </script>
+
+</body>
+
+</html>
